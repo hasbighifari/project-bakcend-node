@@ -1,0 +1,36 @@
+{
+  "name": "backend-darshana-test",
+  "version": "1.0.0",
+  "description": "coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ghifarihasbi/backend-darshana-test.git"
+  },
+  "author": "Hasbiya Ghifari Alfarizi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ghifarihasbi/backend-darshana-test/issues"
+  },
+  "homepage": "https://gitlab.com/ghifarihasbi/backend-darshana-test#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.1.3",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.8",
+    "nodemon": "^2.0.4",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.5"
+  }
+}
